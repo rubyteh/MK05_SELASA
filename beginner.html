@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Plan</title>
+    <style>
+        .plan-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .price {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .discount {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 14px;
+        }
+        .order-button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .features {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .features li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="plan-box">
+        <h1>Beginner</h1>
+        <p>Ideal for small startup business who preferred</p>
+        <p class="price">RM19.99/mo</p>
+        <p class="discount">RM99.99 - SAVE 80%</p>
+        <!--Monts-->
+        <tr>
+            <td>
+                <select type="text" id="months" name="months" required>
+                    <option value="36 months">36 months</option>
+                    <option value="12 months">12 months</option>
+                    <option value="1 months">1 months</option>
+                </select>
+            </td>
+        </tr>
+        
+        <ul class="features">
+            <li>Free Domain</li>
+            <li>30 Email Accounts</li>
+            <li>35GB SSD Storage</li>
+            <li>Weekly Backup</li>
+            <li>Enhance Website Security360</li>
+            <li>Ultrafast LiteSpeed Server</li>
+            <li>Free SSL</li>
+            <li>WordPress Management</li>
+            <li>WordPress Acceleration</li>
+            <li>Support Basic WordPress</li>
+            <li>Support Cloudflare</li>
+        </ul>
+        
+        <a href="#" class="order-button">Order Now</a>
+    </div>
+
+</body>
+</html>
